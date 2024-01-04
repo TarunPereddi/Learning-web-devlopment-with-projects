@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .faq-container {
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .faq-item {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .answer {
+    display: none;
+    padding: 10px;
+  }
+  
+  .chevron {
+    float: right;
+  }
+  
