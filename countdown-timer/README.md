@@ -6,4 +6,4 @@ This project is part of a web development learning journey and focuses on creati
 
 ## Demo
 
-Check out the [Live Demo]() on CodePen.
+Check out the [Live Demo](https://codepen.io/tarunpereddi/pen/mdoPdpZ) on CodePen.
