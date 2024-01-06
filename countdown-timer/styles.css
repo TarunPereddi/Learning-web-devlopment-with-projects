@@ -1,8 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 body{
+    background-color: rgb(227, 231, 247);
     display: flex;
     justify-content: center;
-    align-items: center;
     margin: 0;
     padding: 0;
     height: 100vh;
+    
+}
+.timer{
+    margin-top: 14rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+}
+input{
+    margin: 0.5rem;
+    padding: 0.3rem;
+    max-width: 2.5rem;
+    max-height: 2rem;
+    background-color: rgb(242, 241, 241);
+    font-family: 'Dancing Script', cursive;
+    
+}
+button{
+    font-family: 'Dancing Script', cursive;
 }

@@ -1,18 +1,30 @@
+
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <title>Countdown timer</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <div class="time">
-            <h1>Countdown timer</h1>
-            <input class="hr" type="number" placeholder="HH" min="00">
-            <input class="min" type="number" placeholder="MM" min="00" max="59">
-            <input class="sec" type="number" placeholder="SS" min="00" max="59">
-            <button >Start</button>
-        </div>
-    </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Countdown Timer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="timer">
+    <h1>Countdown Timer</h1>
+    <div>
+      <input id="hour" aria-label="Hours" type="number" placeholder="HH" min="00" max="99" />
+      <span style="font-size: 1.5rem;">:</span>
+      <input id="minute" aria-label="Minutes" type="number" placeholder="MM" min="00" max="59" />
+      <span style="font-size: 1.5rem;">:</span>
+      <input id="second" aria-label="Seconds" type="number" placeholder="SS" min="00" max="59" />
+      <button id="start" type="button">Start</button>
+      <button id="pause" type="button" hidden>Pause</button>
+      <button id="reset" type="button" hidden>Reset</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
