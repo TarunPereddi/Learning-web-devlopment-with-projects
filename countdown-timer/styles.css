@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 body{
     background-color: rgb(227, 231, 247);
     display: flex;
@@ -15,7 +15,7 @@ body{
     align-items: center;
 }
 h1{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Indie Flower', cursive;
     font-size: 4rem;
 }
 input{
@@ -24,9 +24,23 @@ input{
     max-width: 2.5rem;
     max-height: 2rem;
     background-color: rgb(242, 241, 241);
-    font-family: 'Dancing Script', cursive;
-    
+    font-weight:700;
+    border: solid 3px #41403e;
+    box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, 0.2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  
+}
+input:disabled{
+  background-color: rgb(227, 231, 247);
+  border: none;
+  font-size:1.3rem;
 }
 button{
-    font-family: 'Dancing Script', cursive;
+  
+   font-family: 'Indie Flower', cursive;
+   font-weight: 700;
+   border: solid 3px #41403e;
+   box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, 0.2);
+   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  
 }
